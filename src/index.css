@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* reset body */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* theme */
+.light {
+  background-color: #ffffff;
+  color: #213547;
+}
+
+.dark {
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* input + button style (เหมือนกันทั้งหมด) */
+input,
+button {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* layout helper */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
